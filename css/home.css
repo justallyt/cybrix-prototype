@@ -234,17 +234,18 @@ header nav .free-trial{
     background-position: top;
 }
 .landing-slide-moja:nth-child(2){
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-7.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.landing-slide-moja:nth-child(3){
     background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-8.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
+.landing-slide-moja:nth-child(3){
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-7.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .landing-slide-moja .landing-texts{
-    width: 700px;
+    width: 600px;
     margin-left:5%;
     color:whitesmoke;
     margin-top:-10%;
@@ -254,7 +255,9 @@ header nav .free-trial{
     font-size:60px;
     font-weight: 500;
 }
-
+.landing-texts .rect{
+    width:500px; 
+}
 .landing-texts .landing-btns{
     display:inline-flex;
     gap:30px;
@@ -353,7 +356,7 @@ header nav .free-trial{
     font-size:45px;
     text-align: center;
     font-weight: 500;
-    margin:20px auto;
+    margin:20px auto 40px;
     width:80%;
     text-transform: capitalize;
 }
@@ -374,7 +377,19 @@ header nav .free-trial{
 .about-column .about-image{
     width:380px;
     height:380px;
-    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 10px -1px rgb(155, 155, 155);
+}
+.about-column .about-image img{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .about-column .about-image:nth-child(2){
     transform: translate3d(40%, -50%, 0);
@@ -1084,8 +1099,10 @@ footer{
      .landing-slide-moja .landing-texts{
          width:100%;
          margin: 0 5%;
-         
      }
+     .landing-texts .rect{
+        width:100%;
+    }
      .sell-points-content{
          grid-template-columns: repeat(2,1fr);
      }
@@ -1136,17 +1153,17 @@ footer{
         margin-top:15px;
     }
     .landing-slide-moja:nth-child(1){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing4.jpg") no-repeat;
+        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/cybrix-4.jpg") no-repeat;
         background-size: cover;
         background-position: center;
     }
     .landing-slide-moja:nth-child(2){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing3.png") no-repeat;
+        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/cybrix-8.jpg") no-repeat;
         background-size: cover;
         background-position: center;
     }
     .landing-slide-moja:nth-child(3){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing3.jpg") no-repeat;
+        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/cybrix-7.jpg") no-repeat;
         background-size:cover;
         background-position: center;
     }
