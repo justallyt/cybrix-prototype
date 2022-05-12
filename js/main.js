@@ -1,13 +1,3 @@
-//dropdown implementation
-let dropdown_trigger_btn = document.querySelector(".dropdown-trigger-btn");
-let dropdown_box = document.querySelector(".dropdown");
-dropdown_trigger_btn.addEventListener("mouseover", ()=>{
-       dropdown_box.style.display = 'block';
-})
-dropdown_trigger_btn.addEventListener("mouseout", ()=>{
-      dropdown_box.style.display = "none";
-})
-
 let mobile_btn = document.querySelector(".navTrigger");
 let mobile_menu = document.querySelector("header nav");
 

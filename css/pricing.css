@@ -29,7 +29,7 @@ img{
     margin:auto;
 }
 .dash{
-    width:40px;
+    width:60px;
     height:2px;
     background:var(--primary-color);
 }
@@ -52,13 +52,6 @@ img{
     margin:auto;
 }
 
-
-
-#landing{
-    width:100%;
-    height:110vh;
-    position:relative;
-}
 header{
     width:100%;
     height:90px;
@@ -211,241 +204,26 @@ header nav .free-trial{
     -webkit-animation: inBtm 0.8s forwards;
     animation: inBtm 0.8s forwards;
 }
-.landing-slides{
-    width:100%;
-    height:100%;
-    position:relative;
-    margin-top:90px;
-}
-.landing-slide-moja{
-    width:inherit;
-    height:inherit;
-    display:flex;
-    align-items: center;
-    border-radius: 250% / 0 0 100% 100%;
-    -webkit-border-radius: 250% / 0 0 100% 100%;
-    -moz-border-radius: 250% / 0 0 100% 100%;
-    -ms-border-radius: 250% / 0 0 100% 100%;
-    -o-border-radius: 250% / 0 0 100% 100%;
-}
-.landing-slide-moja:nth-child(1){
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-4.jpg") no-repeat;
-    background-size: cover;
-    background-position: top;
-}
-.landing-slide-moja:nth-child(2){
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-7.jpg") no-repeat;
+#landing{
+    padding:150px 0;
+    background:linear-gradient(rgba(0, 23, 31, 0.8), rgba(0, 18, 24, 0.8)), url("../images/cybrix-11.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 90px;
 }
-.landing-slide-moja:nth-child(3){
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-8.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.landing-slide-moja .landing-texts{
-    width: 700px;
-    margin-left:5%;
+
+.landing-content h1{
+    text-align: center;
+    font-size:45px;
     color:whitesmoke;
-    margin-top:-10%;
-}
-
-.landing-texts h1{
-    font-size:60px;
-    font-weight: 500;
-}
-
-.landing-texts .landing-btns{
-    display:inline-flex;
-    gap:30px;
-    margin-top:20px;
-}
-.landing-btns a{
-    padding:15px 40px;
-    font-size:18px;
-    color:white;
-    background:#00aeef;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-
-
-
-#sell-points{
-    padding:60px 0px;
-    position:relative;
-    z-index:90;
-}
-#sell-points h1{
-    text-align: center;
-    font-size:45px;
-    margin-bottom: 20px;
-    font-weight: 500;
-}
-.sell-points-content{
-    width:95%;
-    margin:auto;
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:30px;
-}
-.sell-point-moja{
-    height: 250px;
-}
-.sell-point-moja .sell-point-moja-inner{
-    position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    box-shadow: 0px 1px 4px 1px rgba(196, 196, 196, 0.356);
-    background:white;
-    perspective: 1000px;
-}
-.sell-point-moja:hover .sell-point-moja-inner{
-     transform: rotateY(180deg);
-     -webkit-transform: rotateY(180deg);
-     -moz-transform: rotateY(180deg);
-     -ms-transform: rotateY(180deg);
-     -o-transform: rotateY(180deg);
-}
-.sell-point-moja .front-face,
-.sell-point-moja .back-face{
-    position:absolute;
-    width:100%;
-    height:100%;
-    padding:50px 20px;
-    backface-visibility: hidden;
-    display:block;
-    -webkit-backface-visibility: hidden;
-}
-.sell-point-moja .back-face{
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    background:var(--primary-color);
-    height:100%;
-    color:white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.sell-point-moja h2{
-    font-weight: 400;
-    font-size:20px;
-}
-#nudge h1{
-    font-size:45px;
-    text-align: center;
-    font-weight: 500;
-    margin:20px auto;
-    width:80%;
-    text-transform: capitalize;
-}
-#about-us{
-    padding:30px 0px 40px;
-}
-
-.about-us-content{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    padding:0 2%;
-    gap:50px;
-}
-.about-us-content .about-column{
-    position: relative;
-}
-
-.about-column .about-image{
-    width:380px;
-    height:380px;
-    
-}
-.about-column .about-image:nth-child(2){
-    transform: translate3d(40%, -50%, 0);
-    -webkit-transform: translate3d(40%, -50%, 0);
-    -moz-transform: translate3d(40%, -50%, 0);
-    -ms-transform: translate3d(40%, -50%, 0);
-    -o-transform: translate3d(40%, -50%, 0);
-}
-.about-image img{
-    object-fit: cover;
-}
-.about-intro h1{
-     font-size:50px;
-     margin-bottom: 10px;
-     font-weight: 500;
-}
-.about-description p{
-    font-size:18px;
-    line-height: 35px;
-}
-
-.btn-section{
-    margin:30px 0;
-}
-.btn-section a{
-    height:50px;
-    font-size:18px;
-    width:180px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background:var(--primary-color);
-    color:white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.more-description{
-    margin-top: 10px;
-}
-.more-description ul li span img{
-    width:30px;
-    height:25px;
-}
-.more-description ul li{
-    display:flex;
-    font-size:18px;
-    gap:5px;
-    line-height: 35px;
+    font-weight: 600;
 }
 
 #pricing-options{
     padding:80px 0;
     position:relative;
 }
-#pricing-options::before{
-    content: "";
-    width:90%;
-    height:1px;
-    background: rgb(231, 231, 231);
-    position: absolute;
-    top:0;
-    left:50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
+
 .pricing-option-content h2{
     font-size:40px;
     text-align: center;
@@ -540,186 +318,6 @@ header nav .free-trial{
     -o-border-radius: 40px;
 }
 
-#conversion{
-    padding-bottom: 80px;
-}
-.conversion-full-width{
-    height: 450px;
-    padding-top:80px;
-    background:linear-gradient(to right, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), url("../images/conversionbg.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.conversion-texts{
-    width:800px;
-    margin:auto;
-    text-align: center;
-    color:whitesmoke;
-}
-
-.conversion-texts h1{
-    font-size:45px;
-    font-weight: 600;
-}
-.conversion-texts p{
-    width:70%;
-    margin:10px auto;
-    font-size: 18px;
-}
-.conversion-exact{
-    position: relative;
-    margin-top: -120px;
-}
-.conversion-exact-container{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    width:95%;
-    margin:auto;
-    box-shadow: 0px 0px 8px -1px rgba(51, 51, 51, 0.336);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    overflow: hidden;
-}
-.conversion-exact-container .conversion-column{
-    padding:60px;
-}
-.conversion-exact-container .conversion-column:nth-child(1){
-     background: linear-gradient(rgba(14, 101, 201, 0.88),rgba(14, 101, 201, 0.88)), url("../images/conversion.jpg") no-repeat;
-     background-size: cover;
-     color:whitesmoke;
-     background-position: center;
-}
-.conversion-exact-container .conversion-column:nth-child(2){
-    background-color:white;
-    
-}
-.conversion-column h1{
-    font-size:45px;
-    font-weight: 600;
-}
-.conversion-column p{
-    font-size: 18px;
-    line-height: 30px;
-}
-.conversion-column .solutions-listings{
-    margin:10px 0;
-}
-.solutions-listings ul li{
-    font-size:18px;
-    line-height: 30px;
-}
-.solution-btn{
-    margin-top: 30px;
-}
-.solution-btn a{
-    width:180px;
-    background:white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:50px;
-    color: var(--primary-color);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.conversion-form .form-row{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-bottom: 20px;
-    gap:20px;
-}
-.form-row label,
-.text-area label{
-    display:block;
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-.form-row .form-control{
-    width:100%;
-    height:45px;
-    border:1px solid rgb(207, 207, 207);
-    font-family: "Jost";
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    outline:none;
-    padding-left:10px;
-    font-size:16px;
-}
-.form-row ::placeholder,
-.text-area ::placeholder{
-    color:rgb(175, 175, 175);
-    font-weight: 100;
-    font-size:15px;
-}
-.text-area textarea{
-    width:100%;
-    height:220px;
-    padding:10px;
-    outline:none;
-    font-family: "Jost";
-    border:1px solid rgb(207, 207, 207);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    font-size:16px;
-}
-.conversion-column button{
-    width:180px;
-    margin-top:20px;
-    background:var(--primary-color);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:50px;
-    font-size: 16px;
-    font-family: "Jost";
-    color:white;
-    border:none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    cursor: pointer;
-}
-
-#partners{
-    padding:60px 0;
-    background:white;
-}
-.partners-intro{
-    text-align: center;
-    margin-bottom: 30px;
-}
-.partners-intro h1{
-    font-size:30px;
-    font-weight: 500;
-}
-.slick-slide{
-    height: 70px !important;
-    display:flex !important;
-    justify-content: center !important;
-    margin:10px !important;
-}
-.slick-slide img{
-    object-fit: contain !important;
-}
-.slick-list{
-  padding:0 !important;
-}
 #call-to-action{
     padding:80px 0;
     background:linear-gradient(rgba(0, 166, 216, 0.8), rgba(0, 166, 216, 0.8)), url("../images/image1.jpg") no-repeat;
@@ -1020,21 +618,7 @@ footer{
      header nav{
          gap:50px;
      }
-     #about-us{
-         padding-bottom: 80px;
-     }
-    .about-us-content{
-        grid-template-columns: repeat(1,1fr);
-        gap:0;
-    }
-    .more-description ul li{
-        line-height: 35px;
-    }
-    .about-column .about-image{
-        width:500px;
-        height:380px;
-        margin:auto;
-    }
+
     .footer-content{
         grid-template-columns: repeat(4,1fr);
     }
@@ -1081,28 +665,6 @@ footer{
          top:0px;
      }
 
-     .landing-slide-moja .landing-texts{
-         width:100%;
-         margin: 0 5%;
-         
-     }
-     .sell-points-content{
-         grid-template-columns: repeat(2,1fr);
-     }
-     .about-column .about-image{
-        width:60%;
-        height:380px;
-        margin:0;
-    }
-    .solutions-content{
-        grid-template-columns: repeat(2,1fr);
-   }
-   .conversion-exact-container{
-       grid-template-columns: repeat(1,1fr);
-   }
-   .conversion-texts{
-       width:90%;
-   }
    .call-to-action-content{
        flex-direction: column;
        gap: 20px;
@@ -1119,12 +681,6 @@ footer{
 }
 }
 @media(max-width:800px){
-    .conversion-exact{
-        margin-top:-80px;
-    }
-    .conversion-texts p{
-        width:90%;
-    }
     .pricing-moja{
         width:80%;
     }
@@ -1135,62 +691,7 @@ footer{
         height:65px;
         margin-top:15px;
     }
-    .landing-slide-moja:nth-child(1){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing4.jpg") no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .landing-slide-moja:nth-child(2){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing3.png") no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .landing-slide-moja:nth-child(3){
-        background:linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.75)), url("../images/landing3.jpg") no-repeat;
-        background-size:cover;
-        background-position: center;
-    }
-    .landing-slide-moja .landing-texts{
-        margin:0;
-    }
-    .landing-texts .slogan,
-    .landing-texts .landing-btns{
-        justify-content: center;
-    }
-    .landing-texts h1{
-        font-size:40px;
-        text-align: center;
-    }
-    .landing-texts .landing-btns{
-       flex-wrap: wrap;
-        justify-content: center;
-        width:100%;
-    }
-    .landing-btns a{
-         display:inline-flex;
-    }
-    .sell-points-content{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .about-column .about-image{
-       height:300px;
-        margin:auto;
-    }
-    .about-intro h1{
-        font-size:40px;
-    }
-    .dash{
-        width:30px;
-    }
-    .slogan h3{
-        font-size:14px;
-    }
-    .solutions-content{
-        grid-template-columns: repeat(1,1fr);
-   }
-   .conversion-texts h1{
-       font-size:40px;
-   }
+    
    .footer-content{
        grid-template-columns: repeat(1,1fr);
    }
@@ -1199,39 +700,8 @@ footer{
        gap:10px;
        justify-content: center;
    }
-  
 }
 
 @media(max-width:480px){
-    .conversion-full-width{
-        height:auto;
-        padding-bottom: 80px;
-    }
-    .conversion-exact-container .conversion-column{
-        padding:30px;
-    }
-    .conversion-column h1{
-        font-size:35px;
-        text-align: center;
-    }
-    .conversion-column p{
-        text-align: center;
-    }
-    .conversion-column .solutions-listings{
-        display: flex;
-        justify-content: center;
-    }
-    .solution-btn a{
-        margin:auto;
-    }
-    .conversion-column button{
-        margin:20px auto 0 auto;
-    }
-    .form-row label,
-.text-area label{
-    font-size:16px;
-}
-.conversion-form .form-row{
-    grid-template-columns: repeat(1,1fr);
-}
+  
 }
