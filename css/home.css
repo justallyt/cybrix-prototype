@@ -234,7 +234,7 @@ header nav .free-trial{
     background-position: top;
 }
 .landing-slide-moja:nth-child(2){
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix-8.jpg") no-repeat;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.75),  transparent), url("../images/cybrix12.jpeg") no-repeat;
     background-size: cover;
     background-position: center;
 }
