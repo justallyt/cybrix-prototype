@@ -1,5 +1,3 @@
-
-
 //Implementing the slider
 let slides = document.querySelectorAll(".landing-slide-moja");
 let current = 0;
