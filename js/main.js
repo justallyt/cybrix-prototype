@@ -1,3 +1,11 @@
+const preloader = document.getElementById("preloader")
+
+window.addEventListener("load", ()=>{
+    setTimeout(()=>{
+        preloader.classList.add("rollOut")
+    }, 3000)
+})
+
 let mobile_btn = document.querySelector(".navTrigger");
 let mobile_menu = document.querySelector("header nav");
 
